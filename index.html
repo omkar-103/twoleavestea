@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Two Leaves and a Bud | Premium Organic Teas</title>
+  <meta name="description" content="Two Leaves and a Bud – premium organic teas sourced from the world's finest gardens. Discover compostable whole leaf tea sachets, iced tea, lattes and matcha." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announce-bar">
+    <p>FREE US SHIPPING FOR ORDERS OVER $75</p>
+  </div>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <button class="mobile-menu-btn" id="menuBtn" aria-label="Open menu" onclick="this.closest('header').querySelector('.mobile-nav').classList.toggle('open')">&#9776;</button>
+
+      <nav class="nav-left">
+        <a href="#shop" class="nav-dropdown">Shop <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
+        <a href="#blog" class="nav-dropdown">Learn <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
+        <a href="#collections">Reviews <svg width="14" height="14" viewBox="0 0 24 24" fill="#f5b300" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></a>
+      </nav>
+
+      <a href="#" class="site-logo">
+        <span class="logo-script">two leaves<br /><em>and a bud</em></span>
+      </a>
+
+      <nav class="nav-right">
+        <a href="#account">My Account</a>
+        <a href="#wholesale">Cafe &amp; Wholesale Partners</a>
+        <a href="#blog">Tea Journal</a>
+      </nav>
+
+      <div class="header-icons">
+        <a href="#cart" aria-label="Cart" class="cart-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- MOBILE NAV -->
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#shop">Shop</a>
+      <a href="#blog">Learn</a>
+      <a href="#collections">Reviews</a>
+      <a href="#account">My Account</a>
+      <a href="#wholesale">Cafe &amp; Wholesale Partners</a>
+      <a href="#blog">Tea Journal</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <img
+          src="https://www.twoleavestea.com/cdn/shop/files/AlpineBerry.webp?v=1774284236&width=3600.0"
+          alt="Alpine Berry Whole Leaf Herbal Tea with tea box, glass mug, and berries"
+          class="hero-img"
+        />
+        <!-- very subtle left-side scrim so white text pops -->
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">A cup that fits<br />the moment.</h1>
+        <p class="hero-sub">From compostable whole leaf tea sachets and iced tea to<br />tea lattes and matcha, we've got something for everyone.</p>
+        <a href="#shop" class="btn-shop-now">Shop Now</a>
+      </div>
+      <!-- Down-arrow scroll button, bottom-right -->
+      <a href="#shop" class="hero-arrow" aria-label="Scroll down">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+    </section>
+
+    <!-- MARQUEE / TICKER -->
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <span>Organic · </span><span>Single Origin · </span><span>Sustainably Sourced · </span>
+        <span>Blended in Colorado · </span><span>Non-GMO · </span><span>Fair Trade · </span>
+        <span>Organic · </span><span>Single Origin · </span><span>Sustainably Sourced · </span>
+        <span>Blended in Colorado · </span><span>Non-GMO · </span><span>Fair Trade · </span>
+        <span>Organic · </span><span>Single Origin · </span><span>Sustainably Sourced · </span>
+      </div>
+    </div>
+
+    <!-- CATEGORY CARDS -->
+    <section class="categories" id="shop">
+      <div class="section-header">
+        <p class="eyebrow">Explore</p>
+        <h2>Find Your Perfect Cup</h2>
+      </div>
+      <div class="cat-grid">
+
+        <a href="#black-tea" class="cat-card" style="background:#2a2857;">
+          <div class="cat-img-wrap">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\tea_products_collection_1780057410146.png" alt="Black Teas" />
+          </div>
+          <div class="cat-info">
+            <span class="cat-label">Black Tea</span>
+            <p>Bold, rich &amp; energizing</p>
+            <span class="cat-link">Shop Now &rarr;</span>
+          </div>
+        </a>
+
+        <a href="#green-tea" class="cat-card" style="background:#3a6b35;">
+          <div class="cat-img-wrap">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\matcha_product_1780057460640.png" alt="Green Teas" />
+          </div>
+          <div class="cat-info">
+            <span class="cat-label">Green Tea</span>
+            <p>Light, grassy &amp; refreshing</p>
+            <span class="cat-link">Shop Now &rarr;</span>
+          </div>
+        </a>
+
+        <a href="#herbal-tea" class="cat-card" style="background:#7b4f2e;">
+          <div class="cat-img-wrap">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\tea_lifestyle_1780057438292.png" alt="Herbal Teas" />
+          </div>
+          <div class="cat-info">
+            <span class="cat-label">Herbal &amp; Floral</span>
+            <p>Calming, caffeine-free blends</p>
+            <span class="cat-link">Shop Now &rarr;</span>
+          </div>
+        </a>
+
+        <a href="#matcha" class="cat-card" style="background:#4a7c59;">
+          <div class="cat-img-wrap">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\tea_garden_1780057476560.png" alt="Matcha" />
+          </div>
+          <div class="cat-info">
+            <span class="cat-label">Matcha</span>
+            <p>Ceremonial grade &amp; latte blends</p>
+            <span class="cat-link">Shop Now &rarr;</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS / BESTSELLERS -->
+    <section class="products" id="collections">
+      <div class="section-header">
+        <p class="eyebrow">Bestsellers</p>
+        <h2>Our Most Loved Teas</h2>
+      </div>
+
+      <div class="product-grid">
+
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\tea_products_collection_1780057410146.png" alt="English Breakfast Tea" />
+            <span class="badge">Bestseller</span>
+          </div>
+          <div class="product-info">
+            <p class="product-type">Black Tea</p>
+            <h3 class="product-name">English Breakfast</h3>
+            <p class="product-desc">A robust, full-bodied morning blend with malty richness.</p>
+            <div class="product-footer">
+              <span class="product-price">$14.99</span>
+              <button class="btn-add" id="add-english">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\matcha_product_1780057460640.png" alt="Ceremonial Matcha" />
+            <span class="badge badge-new">New</span>
+          </div>
+          <div class="product-info">
+            <p class="product-type">Matcha</p>
+            <h3 class="product-name">Ceremonial Matcha</h3>
+            <p class="product-desc">Vibrant, smooth &amp; umami-rich. Stone-ground to perfection.</p>
+            <div class="product-footer">
+              <span class="product-price">$22.99</span>
+              <button class="btn-add" id="add-matcha">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\tea_lifestyle_1780057438292.png" alt="Chamomile Dream" />
+          </div>
+          <div class="product-info">
+            <p class="product-type">Herbal</p>
+            <h3 class="product-name">Chamomile Dream</h3>
+            <p class="product-desc">Gentle, floral &amp; soothing. Your perfect bedtime brew.</p>
+            <div class="product-footer">
+              <span class="product-price">$12.99</span>
+              <button class="btn-add" id="add-chamomile">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\tea_hero_banner_1780057390532.png" alt="Earl Grey Lavender" />
+            <span class="badge badge-sale">Sale</span>
+          </div>
+          <div class="product-info">
+            <p class="product-type">Black Tea</p>
+            <h3 class="product-name">Earl Grey Lavender</h3>
+            <p class="product-desc">Classic bergamot with a calming floral twist.</p>
+            <div class="product-footer">
+              <span class="product-price">$13.99</span>
+              <button class="btn-add" id="add-earl">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="products-cta">
+        <a href="#shop" class="btn btn-outline">View All Products</a>
+      </div>
+    </section>
+
+    <!-- BRAND STORY SPLIT -->
+    <section class="brand-story" id="our-story">
+      <div class="story-img">
+        <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\tea_garden_1780057476560.png" alt="Tea gardens" />
+      </div>
+      <div class="story-text">
+        <p class="eyebrow">born in colorado</p>
+        <h2>A great cup starts with a careful<br /><em>pluck — the top two leaves and a bud.</em></h2>
+        <p>Our founder, Richard, started Two Leaves and a Bud in pursuit of a truly great cup. Two decades later, that same care and curiosity guide everything we make.</p>
+        <div class="story-pillars">
+          <div class="story-pillar">
+            <span class="pillar-icon">✦</span>
+            <span>Quality, Without Pretense</span>
+          </div>
+          <div class="story-pillar">
+            <span class="pillar-icon">✦</span>
+            <span>Care for People &amp; Planet</span>
+          </div>
+          <div class="story-pillar">
+            <span class="pillar-icon">✦</span>
+            <span>Transparent Sourcing</span>
+          </div>
+        </div>
+        <a href="#our-story" class="btn btn-primary">Learn More</a>
+      </div>
+    </section>
+
+    <!-- VALUES / ICONS ROW -->
+    <section class="values">
+      <div class="values-inner">
+
+        <div class="value-item">
+          <div class="value-icon">🌿</div>
+          <h4>Certified Organic</h4>
+          <p>All our teas carry USDA Organic certification, grown without synthetic pesticides.</p>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon">🤝</div>
+          <h4>Fair Trade</h4>
+          <p>We pay fair wages to every farmer and picker in our supply chain.</p>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon">🌎</div>
+          <h4>Sustainably Sourced</h4>
+          <p>Our packaging is fully compostable and our supply chain is carbon-tracked.</p>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon">🍃</div>
+          <h4>Whole Leaf</h4>
+          <p>Only real whole-leaf tea in every sachet — never dust or fannings.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DISCOVER / FIND A CUP -->
+    <section class="discover" id="discover">
+      <div class="discover-inner">
+        <p class="eyebrow">Discover</p>
+        <h2>Let's find a cup that fits the moment.</h2>
+        <p class="discover-sub">What are you searching for?</p>
+        <div class="discover-tags">
+          <a href="#" class="discover-tag">chai tea</a>
+          <a href="#" class="discover-tag">matcha</a>
+          <a href="#" class="discover-tag">herbal</a>
+          <a href="#" class="discover-tag">iced tea</a>
+          <a href="#" class="discover-tag">green tea</a>
+          <a href="#" class="discover-tag">golden latte</a>
+        </div>
+        <p class="discover-or">Or explore by vibe…</p>
+        <div class="vibe-grid">
+          <a href="#" class="vibe-card" style="background:linear-gradient(135deg,#7b4f2e,#c8824a)">
+            <span>Morning Calm</span>
+          </a>
+          <a href="#" class="vibe-card" style="background:linear-gradient(135deg,#3a6b35,#7cb878)">
+            <span>Refresh &amp; Recharge</span>
+          </a>
+          <a href="#" class="vibe-card" style="background:linear-gradient(135deg,#2a2857,#5a57a8)">
+            <span>Evening Wind-Down</span>
+          </a>
+          <a href="#" class="vibe-card" style="background:linear-gradient(135deg,#6b3a3a,#b87c7c)">
+            <span>Cozy Comfort</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATCHA FEATURE SECTION -->
+    <section class="matcha-feature" id="matcha">
+      <div class="matcha-inner">
+        <div class="matcha-text">
+          <p class="eyebrow">New Arrival</p>
+          <h2>Meet Our<br /><em>Ceremonial Matcha</em></h2>
+          <p>Stone-ground from shade-grown first-flush Japanese green tea leaves. Vibrant in color, smooth in taste, rich in antioxidants.</p>
+          <ul class="matcha-bullets">
+            <li>✓ &nbsp;Ceremonial grade</li>
+            <li>✓ &nbsp;Single origin — Uji, Japan</li>
+            <li>✓ &nbsp;USDA Organic certified</li>
+            <li>✓ &nbsp;Packed with L-theanine</li>
+          </ul>
+          <a href="#matcha" class="btn btn-primary">Shop Matcha</a>
+        </div>
+        <div class="matcha-img">
+          <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\matcha_product_1780057460640.png" alt="Ceremonial Matcha" />
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="section-header">
+        <p class="eyebrow">Reviews</p>
+        <h2>Loved by tea people everywhere.</h2>
+        <p class="section-sub">Here's what they're saying.</p>
+      </div>
+      <div class="testimonial-grid">
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"The right amount of spice."</p>
+          <span class="reviewer">— Angelina R. · Organic Mountain High Chai</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"This drink is incredibly refreshing, especially when served over ice. It's light, crisp, and instantly cooling, making it perfect for a quick refresh any time of day."</p>
+          <span class="reviewer">— Jacob K. · Organic Matcha Mint</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"One sip and you can feel the difference—clean energy, rich flavor, and all the good stuff your body loves. Literally liquid GOLD."</p>
+          <span class="reviewer">— Harrison G. · Two Roots Golden Latte Mix</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Soo tasty and energizing."</p>
+          <span class="reviewer">— Gracie M. · Organic Tropical Green Tea</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"The perfect start to my day."</p>
+          <span class="reviewer">— Jorge F. · Jasmine Petal</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Honestly the best tea I've ever had. The whole-leaf sachets make such a difference — it tastes like a proper loose-leaf brew without the fuss."</p>
+          <span class="reviewer">— Sarah M. · Colorado</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CAFE & WHOLESALE SECTION -->
+    <section class="cafe-wholesale" id="wholesale">
+      <div class="cafe-img-wrap">
+        <img
+          src="https://www.twoleavestea.com/cdn/shop/files/Our_Cafe_Wholesale_Partners.webp?v=1773753185&width=3600.0"
+          alt="Person holding a cup of green matcha latte on a dark surface"
+        />
+      </div>
+      <div class="cafe-content">
+        <p class="eyebrow">Our Cafe &amp; Wholesale Partners</p>
+        <h2>Barista Blends for<br /><em>Every Mood</em></h2>
+        <p>From local cafés to national chains, our teas power thousands of baristas every day. No training required.</p>
+        <div class="cafe-products">
+          <span class="cafe-tag">Nice Matcha</span>
+          <span class="cafe-tag">Barista Matcha</span>
+          <span class="cafe-tag">Nice Chai</span>
+          <span class="cafe-tag">Barista Chai</span>
+          <span class="cafe-tag">Two Roots Golden Latte</span>
+        </div>
+        <a href="#wholesale" class="btn btn-primary">Become a Partner</a>
+      </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+    <section class="blog" id="blog">
+      <div class="section-header">
+        <p class="eyebrow">Journal</p>
+        <h2>A community steeped in curiosity.</h2>
+        <p class="section-sub">Explore recipes, culture, and everyday tea wisdom.</p>
+      </div>
+      <div class="blog-grid">
+
+        <article class="blog-card">
+          <div class="blog-img">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\tea_garden_1780057476560.png" alt="Tea garden story" />
+          </div>
+          <div class="blog-info">
+            <span class="blog-tag">Origin Stories</span>
+            <h3>Inside the Darjeeling Harvest Season</h3>
+            <p>We traveled to the foothills of the Himalayas to witness the first flush — and meet the farmers who make it happen.</p>
+            <a href="#blog" class="read-more">Read More &rarr;</a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-img">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\matcha_product_1780057460640.png" alt="Matcha brewing guide" />
+          </div>
+          <div class="blog-info">
+            <span class="blog-tag">Brewing Guide</span>
+            <h3>How to Whisk the Perfect Bowl of Matcha</h3>
+            <p>Temperature, technique, and the right ratio — our complete guide to brewing ceremonial matcha at home.</p>
+            <a href="#blog" class="read-more">Read More &rarr;</a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-img">
+            <img src="C:\Users\HP\.gemini\antigravity\brain\d78b6a33-7442-4111-b3a6-49e18458c735\tea_lifestyle_1780057438292.png" alt="Tea wellness" />
+          </div>
+          <div class="blog-info">
+            <span class="blog-tag">Wellness</span>
+            <h3>The Science of L-Theanine and Tea Calm</h3>
+            <p>Why tea gives you focused energy without the jitters — exploring the amino acid that makes tea unique.</p>
+            <a href="#blog" class="read-more">Read More &rarr;</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter" id="newsletter">
+      <div class="newsletter-inner">
+        <p class="eyebrow">Great Tea. In Good Company.</p>
+        <h2>Steep with us</h2>
+        <p>Get news stories, brewing tips, and special offers straight to your inbox.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" id="email-input" placeholder="name@email.com" required />
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <p class="newsletter-note">No spam. Unsubscribe anytime. 🌿</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="logo-top">TWO LEAVES</span>
+          <span class="logo-and">and a bud</span>
+        </div>
+        <p>Premium organic teas, thoughtfully sourced and blended in Basalt, Colorado.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="#collections">Whole Leaf Tea Sachets</a></li>
+          <li><a href="#matcha">Pure Matcha</a></li>
+          <li><a href="#collections">Tea Lattes</a></li>
+          <li><a href="#collections">Iced Tea</a></li>
+          <li><a href="#collections">Gift &amp; Samplers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Products</h5>
+        <ul>
+          <li><a href="#matcha">Matcha</a></li>
+          <li><a href="#shop">Chai</a></li>
+          <li><a href="#shop">Organic Tea</a></li>
+          <li><a href="#shop">Black Tea</a></li>
+          <li><a href="#shop">Green Tea</a></li>
+          <li><a href="#shop">Herbal Tea</a></li>
+          <li><a href="#shop">Caffeine-Free</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#our-story">Our Story</a></li>
+          <li><a href="#our-story">Our Spirit</a></li>
+          <li><a href="#shop">FAQ</a></li>
+          <li><a href="#collections">Reviews</a></li>
+          <li><a href="#blog">All Articles</a></li>
+          <li><a href="#blog">Tea 101</a></li>
+          <li><a href="#blog">Recipes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Wholesale</h5>
+        <ul>
+          <li><a href="#wholesale">Cafe &amp; Wholesale Partners</a></li>
+          <li><a href="#wholesale">Wholesale Login</a></li>
+          <li><a href="#wholesale">Product &amp; Media Files</a></li>
+          <li><a href="#wholesale">Displays &amp; Starter Kits</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Help</h5>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#account">My Account</a></li>
+          <li><a href="#account">Loyal-Tea</a></li>
+          <li><a href="#shipping">Shipping &amp; Returns</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; Two leaves and a Bud 2026 · Site by Manufactur</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
